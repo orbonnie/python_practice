@@ -1,0 +1,6 @@
+print('WELCOME TO OUR STORE!\n*******************')
+item = input('What item are you purchasing? ')
+price = input(f'What is the price of one {item}? ')
+quantity = input(f'How many {item}s are you buying? ')
+print(f'Added {quantity} {item}(s) to your cart')
+print(f'Subtotal: ${float(price) * int(quantity)}')

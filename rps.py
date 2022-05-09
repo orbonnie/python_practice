@@ -38,6 +38,15 @@ elif player == 'p':
   player = paper
 elif player == 's':
   player = scissors
+else:
+  player = ''
+  player = input('Please choose r, p, or s')
+  if player == 'r':
+    player = rock
+  elif player == 'p':
+    player = paper
+  elif player == 's':
+    player = scissors
 
 computer = choice(plays)
 print(f'YOUR MOVE: {player}')

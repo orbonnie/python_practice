@@ -12,4 +12,4 @@ data = j.json()
 # print(t.text)
 # print(data["joke"])
 
-print(s.text)
+print(s.json())
